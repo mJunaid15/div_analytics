@@ -1,6 +1,9 @@
 import React from 'react';
-// import Snag  from './pages/Snag';
-// import Home  from './pages/Home';
+import Katronis  from './pages/Katronis';
+import SnagExport  from './pages/SnagExport';
+
+
+import Snag  from './pages/Snag';
 import Vancouver  from './pages/Vancouver';
 
 
@@ -10,7 +13,7 @@ import Vancouver  from './pages/Vancouver';
 const App = () => {
   return (
     <>
-    <Vancouver/>
+    <Katronis/>
     
       
     </>

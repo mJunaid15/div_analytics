@@ -1,34 +1,26 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import ProjectBreif from "../components/ProjectBreif";
+import Header_content from "../components/Header_content";
+
 
 const Vancouver = () => {
   return (
     <>
       <Navmenu />
 
-      <section className="header_vancouver">
-        <div className="container ">
-          <h1 className="headerH1">
-            Vancouver Art Community{">>"}{" "}
-            <span>Empowering Artists to create.</span>{" "}
-          </h1>
-          <p className="headerPara">
-            Branding {"&"} Content + Digital Platforms
-          </p>
-        </div>
-      </section>
+      <Header_content
+        bg_color="#000"
+        des1="Vancouver Art Community"
+        spanDes=" Empowering Artists to create."
+        para="Branding & Content + Digital Platforms"
+        img="./images/annie-spratt-ncpmQtyTzjg-unsplash 1 (3).png"
+        bg_linearG="linear-gradient(#000 0%, #fff 11.5%)"
+      />
 
-      <section className="headerImg_vancouver d-flex  justify-content-center align-items-center ">
-        <div>
-          <img
-            src="./images/annie-spratt-ncpmQtyTzjg-unsplash 1 (3).png"
-            className="img-fluid"
-            alt="img"
-          />
-        </div>
-      </section>
+    
 
       <ProjectBreif
         bg="#00031F"
@@ -43,6 +35,64 @@ const Vancouver = () => {
         deliverables7=" Communications Development"
         deliverables8=" Memberships + Community Development"
       />
+
+      <section className="artCuration">
+        <div className="container">
+          <div className="row pt-lg-5">
+            <div className="col-12 col-md-6 col-lg-6">
+              <p className="artPara">
+                Art curation and showcase through Facebook and IG <br />
+                Submitting artists for the Vancouver Mural Festival <br />
+                Christmas Market <br />
+                Photography showcase <br />
+                Music Showcase
+              </p>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6">
+              <p className="artPara">
+                Artistic talent scouting <br />
+                Volunteer scouting and training <br />
+                workflow development
+                <br />
+                team management
+              </p>
+            </div>
+          </div>
+          <div className="row pt-lg-5">
+            <div className="col-12 col-md-6 col-lg-6">
+              <p className="artPara">
+                Connecting people to other people and opportunities <br />
+                -Relationship Management <br />
+                -Relationship Building
+                <br />
+                VAC blog that’s published local artists
+                <br />
+                events calendar
+                <br />
+                Discord group
+                <br />
+                Membership platform
+                <br />
+                Mentorship opportunties
+                <br />
+                Communications Circulation thorugh newsletters
+              </p>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6">
+              <p className="artPara">
+                Creatico a collaboration between VAC and other artists and arts
+                focused organizations powered by VanCity to share infrastructure
+                and move vancouvers creative community forewards
+              </p>
+            </div>
+          </div>
+
+          <p className="artPara text-center"> Website development</p>
+        </div>
+      </section>
+
+
+      <section className="black_section"></section>
       <Footer />
     </>
   );

@@ -1,16 +1,12 @@
-/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Navmenu from "../components/Navmenu";
-import Footer from "../components/Footer";
-import ProjectBreif from "../components/ProjectBreif";
 import Header_content from "../components/Header_content";
 
-
-const Snag = () => {
+import ProjectBreif from "../components/ProjectBreif";
+const SnagExport = () => {
   return (
     <>
       <Navmenu />
-      
       <Header_content
         bg_color="#000"
         des1="SNAG"
@@ -19,8 +15,6 @@ const Snag = () => {
         img="./images/branding_assets_classic-logo 1.png"
         bg_linearG="linear-gradient(#000 0%, #fc2938 11.5%)"
       />
-
-     
 
       <ProjectBreif
         bg="#010000"
@@ -58,26 +52,43 @@ const Snag = () => {
           </h4>
           <div className="row d-flex  mt-5">
             <div className="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center ">
-              <img src="./images/Hootsuite.png" className="img-fluid" />
+              <img
+                src="./images/Hootsuite.png"
+                className="img-fluid"
+                alt="img"
+              />
             </div>
             <div className="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-              <img src="./images/Absolute2 1.png" className="img-fluid" />
+              <img
+                src="./images/Absolute2 1.png"
+                className="img-fluid"
+                alt="img"
+              />
             </div>
           </div>
           <div className="row  mt-5">
             <div className="col-12 col-md-12 col-lg-12 d-flex align-items-center justify-content-center">
-              <img src="./images/Google-logo 1.png" className="img-fluid" />
+              <img
+                src="./images/Google-logo 1.png"
+                className="img-fluid"
+                alt="img"
+              />
             </div>
           </div>
 
           <div className="row d-flex  mt-5">
             <div className="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center ">
-              <img src="./images/image 96.png" className="img-fluid" />
+              <img
+                src="./images/image 96.png"
+                className="img-fluid"
+                alt="img"
+              />
             </div>
             <div className="col-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
               <img
                 src="./images/Brandlive_wordmark_blue_RGB 1.png"
                 className="img-fluid"
+                alt="img"
               />
             </div>
           </div>
@@ -195,12 +206,16 @@ const Snag = () => {
       </section>
 
       <section className="paintingImg d-flex justify-content-center">
-        <img src="./images/IMG_8496 1.png" className="img-fluid mx-auto" />
+        <img
+          src="./images/IMG_8496 1.png"
+          className="img-fluid mx-auto"
+          alt="img"
+        />
       </section>
 
       <section className="authorityBlack d-flex align-items-center">
         <div className="frameblack container d-flex flex-column align-items-center justify-content-center">
-          <img src="./images/Group 8.png" className="img-fluid" />
+          <img src="./images/Group 8.png" className="img-fluid" alt="img" />
         </div>
       </section>
 
@@ -215,9 +230,8 @@ const Snag = () => {
       </section>
 
       <section className="imgWithgradiant"></section>
-      <Footer />
     </>
   );
 };
 
-export default Snag;
+export default SnagExport;

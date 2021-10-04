@@ -1,27 +1,24 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from "react";
 import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import ProjectBreif from "../components/ProjectBreif";
+import Header_content from "../components/Header_content";
 
 const Casestudy = () => {
   return (
     <>
       <Navmenu />
-      <section className="headerr">
-        <div className="container ">
-          <h1>
-            Dive Analytics {">>"} <span>Building the next great brand.</span>{" "}
-          </h1>
-        </div>
-      </section>
-      <section className="headerImg d-flex justify-content-center align-content-center">
-        <div>
-          <img
-            src="./images/annie-spratt-ncpmQtyTzjg-unsplash 1 (2).png"
-            className="img-fluid"
-          />
-        </div>
-      </section>
+
+     
+      <Header_content
+        bg_color="#000"
+        des1=" Building the next great brand."
+        spanDes="  Building the next great brand."
+        para="Business Development + Branding & Content + Digital Platforms"
+        img="./images/annie-spratt-ncpmQtyTzjg-unsplash 1 (3).png"
+        bg_linearG="linear-gradient(#000 0%, #fff 11.5%)"
+      />
 
       <ProjectBreif
         bg="#012639"
@@ -35,7 +32,6 @@ const Casestudy = () => {
         deliverables7=" market research"
         deliverables8=" public relations"
         deliverables9=" lead generation"
-
       />
 
       <section className="brand_Mark">

@@ -488,7 +488,6 @@
   flex-direction: row;
   width: 100%;
   height: 80px;
-
 }
 .viewWork {
   width: 50%;
@@ -1006,20 +1005,6 @@ footer {
 
 /* case study section css start  */
 
-.headerr {
-  width: 100%;
-  height: 330px;
-  background-image: linear-gradient(
-    black,
-    rgba(17, 16, 16, 0.979),
-    rgba(0, 0, 0, 0.918),
-    rgba(0, 0, 0, 0.918),
-    rgba(0, 0, 0, 0.918),
-    rgba(0, 0, 0, 0.788),
-    rgb(153, 153, 149),
-    rgb(255, 255, 255)
-  );
-}
 .headerr h1 {
   padding-top: 80px;
   font-weight: 600;
@@ -1264,7 +1249,7 @@ footer {
 .header_snag {
   width: 100%;
   height: 330px;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .headerH1 {
@@ -1282,7 +1267,7 @@ footer {
 
   color: #ffffff;
 }
-.headerH1  span {
+.headerH1 span {
   font-weight: 600;
   font-size: 55px;
   line-height: 82px;
@@ -1292,7 +1277,7 @@ footer {
 .headerImg_snag {
   width: 100%;
   height: 900px;
-  background: linear-gradient(#000 0%, #fc2938 11.5%);
+  /* background: linear-gradient(#000 0%, #fc2938 11.5%); */
 }
 .project_breif_snag {
   width: 100%;
@@ -1541,20 +1526,184 @@ footer {
 }
 /* snag css end  */
 
-
-
 /* vancouver css start  */
-.header_vancouver {
+
+.artCuration {
   width: 100%;
-  height: 330px;
-  background-color: #000;
-}
-.headerImg_vancouver {
-  width: 100%;
-  height: 900px;
-  background: linear-gradient(#000 0%, #ffffff 11.5%);
+  height: 888px;
+
+  background: #d8effd;
 }
 
+.artPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 30px;
+  color: #000000;
+}
 
+.black_section {
+  width: 100%;
+  height: 11780px;
+
+  background: #000000;
+}
 
 /* vancouver css end  */
+
+/* katronis css start  */
+.betterSec {
+  width: 100%;
+  height: 1502px;
+  background: #fbfbfb;
+}
+.parabetter {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 20px;
+  color: #303e49;
+}
+.h5better {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  padding: 30px 0;
+  color: #303e49;
+}
+
+.bussinesManagement {
+  width: 100%;
+  height: 1036px;
+
+  background: #fbfbfb;
+}
+
+.businessmanH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+
+  color: #000000;
+}
+.businessmanPara {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.marketingClender {
+  width: 100%;
+  height: 982px;
+
+  background: #fbfbfb;
+}
+.marketingHeading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+
+  color: #303e49;
+}
+.marketingPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #303e49;
+}
+
+.ulLi {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #303e49;
+}
+
+.doorKnocking {
+  width: 100%;
+  height: 952px;
+  background: #303e49;
+}
+
+.OpenHouseing {
+  width: 100%;
+  height: 722px;
+  background: #303e49;
+}
+.marketWatch {
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 7080px;
+
+  background: #00031f;
+}
+.marketwatchHeading {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 114.5%;
+  /* or 23px */
+
+  color: #ffffff;
+}
+.localSales {
+  width: 100%;
+  height: 708px;
+}
+.navSales {
+  width: 100%;
+
+  background-color: #000;
+}
+.localSalesNav {
+  width: 100%;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #f9fafb !important;
+}
+
+.Arealstate {
+  width: 100%;
+  height: 900px;
+  background: #fbfbfb;
+}
+.Seo {
+  width: 100%;
+  height: 923px;
+  background: #fbfbfb;
+}
+.Community {
+  width: 100%;
+  height: 900px;
+  background: #f8ec3d;
+}
+.top3 {
+  width: 100%;
+  height: 900px;
+  background: #fbfbfb;
+}
+
+.highlyTragered {
+  width: 100%;
+  height: 600px;
+  background: #fbfbfb;
+}
+
+.yellowBox {
+  width: 100%;
+  height: 140px;
+  background: #fee83d;
+}
+/* katronis css end  */
