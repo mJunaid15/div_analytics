@@ -4,6 +4,8 @@ import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import ProjectBreif from "../components/ProjectBreif";
 import Header_content from "../components/Header_content";
+import Viewteam from "../components/Viewteam";
+
 
 
 const Vancouver = () => {
@@ -93,6 +95,13 @@ const Vancouver = () => {
 
 
       <section className="black_section"></section>
+
+      <Viewteam
+        bg="url(/images/blue.png)"
+        bg2="url(/images/yellow.png)"
+        head1="VIEW WORK"
+        head2="VIEW TEAM"
+      />
       <Footer />
     </>
   );

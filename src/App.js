@@ -10,6 +10,18 @@ import SnagExport from './pages/SnagExport';
 import Vancouver from './pages/Vancouver';
 import Katronis from './pages/Katronis';
 import Greyarea from './pages/Greyarea';
+import Forx from './pages/Forx';
+import Services from './pages/Services';
+import Pricingmodel from './pages/Pricingmodel';
+import Specialized from './pages/Specialized';
+import Team from './pages/Team';
+import Contactpage from './pages/Contactpage';
+
+
+
+
+
+
 import Error from './pages/Error';
 import { Route, Switch } from "react-router";
 
@@ -30,6 +42,18 @@ const App = () => {
         <Route path="/vancouver" component={Vancouver}></Route>
         <Route path="/katronis" component={Katronis}></Route>
         <Route path="/greyarea" component={Greyarea}></Route>
+        <Route path="/forx" component={Forx}></Route>
+        <Route path="/services" component={Services}></Route>
+        <Route path="/pricingmodel" component={Pricingmodel}></Route>
+        <Route path="/specialized" component={Specialized}></Route>
+        <Route path="/team" component={Team}></Route>
+        <Route path="/contactpage" component={Contactpage}></Route>
+
+
+
+
+
+
         <Route  component={Error}></Route>
 
 

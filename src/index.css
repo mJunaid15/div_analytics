@@ -3,6 +3,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+ 
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -49,12 +50,12 @@
   margin-top: -6px;
   width: 100%;
   height: 845px;
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.082),
       rgba(0, 0, 0, 0.801)
     ),
-    url("./cssimg/wave.png");
+    url("./cssimg/wave.png"); */
   background-size: 100% 100%;
 }
 .hero_content {
@@ -89,7 +90,8 @@
   margin: 0 20px;
 }
 .herobtn {
-  margin-top: 56px;
+  margin-top: 20px;
+  margin-left: 20px;
   width: 198px;
   height: 53px;
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.27));
@@ -98,7 +100,8 @@
   line-height: 24px;
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.83);
-  background-color: #fef76b;
+  background: transparent;
+  /* background-color: #fef76b; */
   border: none;
 }
 /* hero section end  */
@@ -309,7 +312,7 @@
   height: 90%;
   margin: auto auto;
 }
-.inner h1 {
+.homeinnerh1 {
   font-weight: 600;
   font-size: 40px;
   line-height: 112%;
@@ -349,6 +352,43 @@
   line-height: 114.5%;
   color: #faf36a;
   margin-top: 90px;
+  /* background-color: #000; */
+}
+.colorfulbox {
+  position: relative;
+  width: 100%;
+  height: 65vh;
+  /* background-color: red; */
+  background-image: url("./cssimg/colorfullborder.png");
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.pinkGradiantbox {
+  width: 98.5%;
+  height: 97.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 111;
+  overflow: hidden !important;
+
+  background: conic-gradient(
+    from 153.84deg at -1.31% -2.37%,
+    #6513bb -3deg,
+    #c723d3 22.21deg,
+    #e9c604 76.22deg,
+    #00d3fa 161.25deg,
+    #000000 213.99deg,
+    #f6e4a8 268.66deg,
+    #6513bb 357deg,
+    #c723d3 382.21deg
+  );
+  border-radius: 10px;
+}
+
+.colorfullimg {
+  height: 600px !important;
+  width: 100%;
 }
 /* what client css end  */
 
@@ -484,27 +524,26 @@
   width: 100%;
 }
 .viewContainer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+  width: 50vw;
   height: 80px;
-}
-.viewWork {
-  width: 50%;
-  background-image: url("./cssimg/Mask\ Group.png");
   background-size: 100% 100%;
 }
-.viewteam {
-  width: 50%;
-  background-image: url("./cssimg/annie-spratt-ncpmQtyTzjg-unsplash\ 1\ \(1\).png");
+.teamContainer {
+  width: 50vw;
+  height: 80px;
   background-size: 100% 100%;
+}
+
+.parentView {
+  width: 100%;
+  display: flex;
 }
 .viewCOntainerHeading {
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 60px;
-  padding: 0 45px;
+  /* padding: 0 45px; */
   color: #ffffff;
 }
 footer {
@@ -724,7 +763,7 @@ footer {
     height: 809px;
     background-color: #00031f;
   }
-  .inner h1 {
+  .homeinnerh1 {
     font-weight: 600;
     font-size: 22px;
     line-height: 112%;
@@ -751,6 +790,7 @@ footer {
     color: #faf36a;
     margin-top: 44px;
   }
+
   .whatclientSec {
     display: flex;
     align-items: center;
@@ -1895,3 +1935,551 @@ footer {
 
 /* --------------------------------- 404 Error Page Section  Ends
                                                                         -------------------------------------------------------*/
+
+/* forx page css :start  */
+
+.marketingCamp {
+  width: 100%;
+  height: 812px;
+  background: #00031f;
+}
+.marketH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114.5%;
+  /* or 46px */
+
+  text-align: center;
+
+  color: #faf36a;
+}
+.startupH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114.5%;
+  padding-left: 30px;
+  /* or 46px */
+
+  color: #ffffff;
+}
+
+.accordion-item {
+  background-color: transparent !important;
+  border: none !important;
+}
+.accordion-button {
+  position: relative;
+  display: flex;
+  justify-content: start !important;
+  color: #faf36a !important;
+  align-items: center;
+  width: 147%;
+  padding: 1rem 1.25rem;
+  font-size: 20px !important;
+
+  text-align: left !important;
+  background-color: transparent !important;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
+}
+.accordion-button:not(.collapsed) {
+  color: #0c63e4;
+  background-color: transparent !important;
+  outline: none !important;
+  /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  /* margin-left: 0 !important; */
+  content: "";
+  background-image: none !important;
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-button::before {
+  flex-shrink: 0;
+  /* background-color: red !important; */
+
+  /* width: 1.25rem;
+  height: 1.25rem; */
+  margin-right: 10px !important;
+  content: "+";
+  color: #fff !important;
+  background-image: none !important;
+  /* background-size: 1.25rem; */
+  transition: transform 0.2s ease-in-out;
+}
+.accordion-button:not(.collapsed):after {
+  background-image: none !important;
+}
+.accordion-button:not(.collapsed)::before {
+  content: "-";
+  color: #faf36a !important;
+
+  transform: rotate(180deg);
+}
+.accordion-button:focus {
+  z-index: 3;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.accordion-body {
+  padding: 1rem 1.25rem;
+  color: #fff !important;
+}
+.branding {
+  width: 100%;
+  height: 900px;
+  background: #00031f;
+}
+/* forx page css :end  */
+
+/* services css start  */
+.marketingsection {
+  width: 100%;
+  height: 900px;
+
+  background: #00031f;
+}
+.marketingh1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114.5%;
+  padding-bottom: 20px;
+  /* or 46px */
+
+  color: #faf36a;
+}
+.marketingpara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+.marketingbtn {
+  width: 169px;
+  height: 53px;
+  background: #fef76b;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  color: #00031f;
+}
+
+.marketingUL {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.howWe {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 1220px;
+  background-image: linear-gradient(#012639 0%, #012639af 100%),
+    url("./cssimg/3Dhalftone.png");
+}
+.howeH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 114.5%;
+  /* or 52px */
+  padding-bottom: 20px;
+
+  color: #faf36a;
+}
+.olHeading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 114.5%;
+  padding-bottom: 20px;
+
+  /* or 46px */
+
+  color: #faf36a;
+}
+.howepara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.boxParent {
+  width: 40%;
+  height: 50vh;
+  /* background-color: rebeccapurple; */
+  position: relative;
+}
+.servicesBox1 {
+  width: 90.29px;
+  height: 91.27px;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(134, 154, 178, 1),
+    rgba(163, 83, 160, 1)
+  );
+  border-radius: 10px;
+}
+.servicesBox2 {
+  width: 90.29px;
+  height: 91.27px;
+  /* background-color: red; */
+  position: absolute;
+  bottom: 45%;
+  left: 37%;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(189, 33, 201, 1),
+    rgba(251, 244, 111, 1)
+  );
+  border-radius: 10px;
+}
+.servicesBox3 {
+  width: 90.29px;
+  height: 91.27px;
+  position: absolute;
+  top: 10%;
+  right: 0;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 182, 115, 1),
+    rgba(134, 154, 178, 1)
+  );
+  border-radius: 10px;
+}
+.serviceinerH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 112%;
+  /* or 15px */
+
+  color: #ffffff;
+}
+
+.btnServiceInner {
+  width: 100%;
+  height: 54px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: none;
+  background: #fef76b;
+  border-radius: 10px;
+}
+
+/* services css end  */
+
+/* pricing model css start  */
+.card1 {
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  width: 250px;
+  height: 270.27px;
+}
+
+.card2 {
+  position: absolute;
+  bottom: 0%;
+  left: 55%;
+  width: 250px;
+  height: 270.27px;
+}
+.card3 {
+  position: absolute;
+  bottom: 0%;
+  left: 80%;
+  width: 250px;
+  height: 270.27px;
+}
+.pricingModelhowePading {
+  padding: 0 200px;
+}
+.btnpricingmodel {
+  width: 50%;
+  height: 54px;
+  text-align: right;
+  border: none;
+  background: #fef76b;
+  padding: 0 20px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #00031f;
+}
+/* pricing model css end  */
+
+/* slider css start  */
+.carousel {
+  /* position: relative; */
+  width: 100% !important;
+  height: 100% !important;
+}
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  display: none !important;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 1rem !important;
+  height: 1rem !important;
+  background-repeat: no-repeat;
+  background-position: 17%;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 22.5%;
+  right: 41%;
+}
+.carousel-control-prev-icon {
+  position: absolute;
+  bottom: 22.5% !important;
+  left: 557% !important;
+  width: 1rem !important;
+  height: 1rem !important;
+}
+.tringlecolorboxh1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 114.5%;
+  /* or 14px */
+
+  color: #faf36a;
+}
+.tringlecolorboxPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 114.5%;
+  padding: 10px 10px;
+  /* or 23px */
+
+  color: #ffffff;
+}
+.tringlecolorboxPara2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 114.5%;
+  padding: 10px 10px;
+
+  /* or 14px */
+
+  color: #ffffff;
+}
+
+/* slider css end  */
+
+/* specialized css start  */
+.sevendayRush {
+  width: 100%;
+  height: 900px;
+  background: #00031f;
+}
+.colorfullYellowH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 114.5%;
+  /* or 52px */
+
+  color: #faf36a;
+}
+.sevendaybtn {
+  width: 165px;
+  height: 53px;
+  background: #fef76b;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #00031f;
+}
+.sevendaybtnLg {
+  margin-bottom: 20px;
+  width: 250px;
+  height: 53px;
+  background: #fef76b;
+  border-radius: 10px;
+  border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+
+  color: #00031f;
+}
+
+/* specialized css end  */
+
+/* team css start  */
+
+.weAreFluid {
+  width: 100%;
+  height: 900px;
+  background: #012639;
+}
+.heroSectionTeam {
+  margin-top: -6px;
+  width: 100%;
+  height: 845px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.082),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./cssimg/analy.png");
+  background-size: 100% 100%;
+}
+.paddtop {
+  padding-top: 400px;
+}
+.weAreFluidH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 123px;
+
+  color: #ffffff;
+}
+.weAreFluidH1 span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 123px;
+
+  color: #faf36a;
+}
+
+.thestartofUs {
+  width: 100%;
+  height: 900px;
+  background: #00031f;
+}
+.weareH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 123px;
+
+  color: #ffffff;
+}
+.wearepara {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 223%;
+  /* or 45px */
+
+  color: #ffffff;
+}
+.excutiveTeam {
+  width: 100%;
+  height: 900px;
+  background: #00031f;
+}
+.exuH1{
+  font-style: normal;
+font-weight: 600;
+font-size: 55px;
+line-height: 123px;
+
+color: #FFFFFF;
+}
+.profilehead{
+  font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 223%;
+/* or 45px */
+
+
+color: #FFFFFF;
+}
+.profileheadCoFounder{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 223%;
+  /* identical to box height, or 45px */
+  
+  
+  color: #FFFFFF;
+}
+.profilepara{
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+}
+.underline{
+  font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+/* team css end  */

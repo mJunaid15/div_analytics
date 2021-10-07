@@ -1,7 +1,6 @@
 import React from "react";
 import Navmenu from "../components/Navmenu";
 import Header_content from "../components/Header_content";
-
 import ProjectBreif from "../components/ProjectBreif";
 const SnagExport = () => {
   return (

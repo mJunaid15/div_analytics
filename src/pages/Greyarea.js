@@ -3,6 +3,8 @@ import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import ProjectBreif from "../components/ProjectBreif";
 import Headercontent from "../components/Header_content";
+import Viewteam from "../components/Viewteam";
+
 
 const Greyarea = () => {
   return (
@@ -154,6 +156,12 @@ const Greyarea = () => {
             <img src="./images/Instagram Posts.png" alt="img" className="img-fluid"/>
         </div>
     </section>
+    <Viewteam
+        bg="url(/images/blue.png)"
+        bg2="url(/images/yellow.png)"
+        head1="VIEW WORK"
+        head2="VIEW TEAM"
+      />
       <Footer />
     </>
   );

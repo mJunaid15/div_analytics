@@ -4,6 +4,8 @@ import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import ProjectBreif from "../components/ProjectBreif";
 import Header_content from "../components/Header_content";
+import Viewteam from "../components/Viewteam";
+
 
 const Casestudy = () => {
   return (
@@ -367,7 +369,12 @@ const Casestudy = () => {
           <h1>Show business cards</h1>
         </div>
       </section>
-
+      <Viewteam
+        bg="url(/images/blue.png)"
+        bg2="url(/images/yellow.png)"
+        head1="VIEW WORK"
+        head2="VIEW TEAM"
+      />
       <Footer />
     </>
   );

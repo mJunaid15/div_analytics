@@ -5,19 +5,7 @@ const Footer = () => {
   return (
     <>
       <section className="footerSec">
-        <div className="viewContainer">
-          <div className="viewWork">
-           <div className="container">
-               <h1 className="viewCOntainerHeading">VIEW WORK</h1>
-           </div>
-          </div>
-          <div className="viewteam">
-          <div className="container">
-               <h1 className="viewCOntainerHeading">VIEW TEAM</h1>
-           </div>
-     
-          </div>
-        </div>
+       
 
 
 <footer className="">

@@ -35,7 +35,7 @@ const Navmenu = () => {
                 <Nav.Link as={NavLink} to={"/casestudy"} className="NavLi">
                   SPECIALIZED PRODUCTS
                 </Nav.Link>
-                <Nav.Link href="#link" className="NavLi">
+                <Nav.Link as={NavLink} to={"/greyarea"} className="NavLi">
                   PRICING
                 </Nav.Link>
                 <Nav.Link href="#link" className="contactbtn">

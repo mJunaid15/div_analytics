@@ -1,27 +1,70 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import wave from "/images/wave.png";
+
 import { Container } from "react-bootstrap";
 
-const Herosec = () => {
+const Herosec = (props) => {
   return (
     <>
-      <section className="heroSection">
+      <section
+        className="heroSection d-flex align-items-center"
+        style={{ backgroundImage: props.bg, backgroundColor: props.bgcolor }}
+      >
         <Container>
           <div className="hero_content">
-            <h1 className="heroHeading">
-              Our sole mission is to help develop the next great <br />{" "}
-              <span>idea</span>
+            <h1 className="heroHeading ">
+              {props.Heading}
+              <br />
+              <span>{props.yellowHeading}</span>
+              {props.Heading2}
             </h1>
+           
             <p>
-              We help startups initialize their branding and marketing. For
-              established companies, we help them navigate new waters.
-              <br />  <br />
-              Let’s dive into your market.
+              {props.para}
+              <br /> <br />
+              {props.secondPara}
             </p>
 
-            <button className="herobtn">Are you a startup?</button>
-            <span className="or">OR</span>
-            <button className="herobtn">Are you established?</button>
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn1 }}
+            >
+              {props.btn1}
+            </button>
+            <span className="or" style={{ display: props.display }}>
+              {props.or}
+            </span>
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn2 }}
+            >
+              {props.btn2}
+            </button>
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn3 }}
+            >
+              {props.btn3}
+            </button>
+            <br />
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn4 }}
+            >
+              {props.btn4}
+            </button>
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn5 }}
+            >
+              {props.btn5}
+            </button>
+            <button
+              className="herobtn"
+              style={{ backgroundColor: props.bgbtn6 }}
+            >
+              {props.btn6}
+            </button>
           </div>
         </Container>
       </section>
