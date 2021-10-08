@@ -7,7 +7,7 @@ const Herosec = (props) => {
   return (
     <>
       <section
-        className="heroSection d-flex align-items-center"
+        className="heroSection d-lg-flex align-items-lg-center d-sm-flex align-items-start"
         style={{ backgroundImage: props.bg, backgroundColor: props.bgcolor }}
       >
         <Container>
@@ -46,7 +46,7 @@ const Herosec = (props) => {
             >
               {props.btn3}
             </button>
-            <br />
+            <br className="d-none d-lg-block" />
             <button
               className="herobtn"
               style={{ backgroundColor: props.bgbtn4 }}

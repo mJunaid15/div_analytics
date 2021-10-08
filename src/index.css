@@ -3,7 +3,6 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
- 
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -15,10 +14,33 @@
   background-color: #000 !important;
 
 } */
+
+.contactbtn{
+  transition: all 1s ease-in-out !important;
+
+
+}
+a.link-active.contactbtn.nav-link{
+  
+  color: #FAF36A !important ;
+  border: 2px solid  #FAF36A !important ;
+
+
+}
+a.link-active.NavLi.nav-link{
+  color: #FAF36A !important ;
+
+
+
+}
+
+
+
 .navbar-nav .nav-link {
   padding-right: 5px;
   padding-left: 10px;
 }
+
 
 .navmenu {
   background: linear-gradient(90.12deg, #1f232c 0%, #333436 100%) !important;
@@ -27,6 +49,7 @@
   z-index: 999;
 }
 .contactbtn {
+  
   border: 2px solid #ffffff;
   border-radius: 10px;
   font-weight: 500;
@@ -35,6 +58,7 @@
   color: #ffffff !important;
 }
 .NavLi {
+
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
@@ -595,9 +619,508 @@ footer {
 }
 /* footer css end  */
 
+
 /* media quries start  */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .tringlecolorboxPara {
+    
+    max-height: 379px !important;
+    overflow: auto !important;
+    padding: 10px 10px !important;
+}
+  .tringlecolorboxPara {
+   
+    padding: 58px 10px !important;
+}
+
+  .heroSectionTeam {
+    height: 559px !important;
+}
+  .exuH1 {
+   
+    font-size: 40px !important;
+    line-height: 111px !important;
+}
+  .excutiveTeam {
+    width: 100%;
+    height: auto !important;
+    background: #00031f;
+}
+  .weareH1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px !important;
+    line-height: 123px !important;
+    color: #ffffff;
+}
+  .thestartofUs {
+    width: 100%;
+    height: auto !important;
+    background: #00031f;
+}
+  .weAreFluid {
+    width: 100%;
+    height: auto !important;
+    padding: 20px !important;
+    background: #012639;
+}
+  .weAreFluidH1 span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px !important;
+    line-height: 44px !important;
+    color: #faf36a;
+}
+  .weAreFluidH1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 30px !important;
+    color: #ffffff;
+}
+  .colorfullYellowH1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 177.5% !important;
+    color: #faf36a;
+}
+
+  .imgWithgradiant {
+    height: 238px !important;
+   
+}
+  .authorityBlack {
+    width: 100%;
+    height: auto !important;
+    background-color: #000000;
+}
+  .authority {
+    height: auto !important;
+}
+  .authority h1{
+    font-size: 35px !important;
+    line-height: 63px !important;
+
+  }
+  .authority p{
+    font-weight: 600;
+    font-size: 16px !important;
+    line-height: 33px !important;
+    padding: 0px !important;
+}
+  
+  .paintingImg {
+    height: auto !important;
+}
+  .BigText_skate {
+   
+    font-size: 33px !important;
+  
+    top: 90% !important;
+    right: -116% !important;
+}
+  .BigText_holiday {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px !important;
+    line-height: 60px;
+    color: #fc2938;
+    position: absolute;
+    bottom: -12%;
+    left: -12%;
+}
+  .abstrack_box_parent {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 1098px !important;
+    /* background-color: #00031f; */
+    position: relative;
+}
+  .BigText_women {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px !important;
+    line-height: 108px;
+    color: #fc2938;
+    transform: rotate(
+30deg);
+    position: absolute;
+    left: 47% !important;
+    top: -19% !important;
+}
+  .BigText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px !important;
+    line-height: 156px;
+    color: #000000;
+    position: absolute;
+    top: -49% !important;
+}
+  .MichaelRozen_box {
+    width: 200px !important;
+    height: 261px !important;
+    position: absolute;
+    background-size: 100% 100%;
+    bottom: 16% !important;
+    left: 26% !important;
+}
+  .GraemeZirk_box {
+    width: 200px !important;
+    height: 200px !important;
+    position: absolute;
+    background-size: 100% 100%;
+    bottom: 41% !important;
+    left: 9% !important;
+}
+  .LaurenElms_box {
+    width: 200px !important;
+    height: 200px !important;
+    background-size: 100% 100%;
+    right: 11%;
+    top: 22% !important;
+}
+
+  .abstrack_box {
+    width: 200px !important;
+    height: 200px !important;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 13%;
+    left: 7%;
+}
+
+  .AnewTheme h1 {
+    top: -37px !important;
+ 
+    margin-top: 0px !important;
+    font-size: 26px !important;
+    line-height: 95px !important;
+  
+}
+  .WeMastered {
+    height: auto !important;
+}
+  .helpingText {
+    padding-top: 38px !important;
+    font-size: 34px !important;
+  
+}
+  .helpingSnag {
+    height: auto !important;
+}
+  .someStateText {
+    /* padding-left: 40px; */
+    font-size: 34px !important;
+    
+}
+  .strokeColor {
+    font-size: 49px !important;
+   
+}
+  .experiental_design {
+    height: auto !important;
+}
+
+  .marketingbtn {
+    
+    margin-bottom: 10px !important;
+}
+  .marketingh1 {
+   
+    font-size: 26px !important;
+    padding: 20px 0 !important;
+}
+
+  .marketingsection {
+    height: auto !important;
+    padding: 20px 0 !important;
+}
+  .whatclientSec {
+    
+    height: auto !important;
+    padding: 20px 0 !important;
+}
+
+  .btnpricingmodel {
+    width: 58% !important;
+    
+}
+
+  .pricingModelhowePading {
+    padding: 0 !important;
+}
+ 
+    .box1 {
+      bottom: 90px !important;
+      left: 159px !important;
+      width: 200px !important;
+  }
+
+  
+  
+
+
+.card3 {
+    bottom: 11% !important;
+    left: 3% !important;
+    width: 119px !important;
+}
+  .card2 {
+    bottom: 40% !important;
+    left: 65% !important;
+    width: 119px !important;
+}
+  .card1 {
+    top: 10% !important;
+    left: 3% !important;
+    width: 119px !important;
+}
+  .seeHumanleft {
+   
+    margin-bottom: 10px !important;
+ 
+}
+  .marketingPara {
+    font-size: 12px !important;
+    margin-top: 64px !important;
+    line-height: 23px !important;
+    max-height: 147px;
+    overflow: auto;
+}
+  .highlyTragered {
+    
+    height: auto !important;
+}
+  .top3 {
+    height: auto !important;
+
+}
+  .Community {
+    height: auto !important;
+
+}
+  .Seo {
+    height: auto !important;
+
+}
+  .Arealstate {
+    height: auto !important;
+
+}
+  .localSales {
+    height: auto !important;
+
+}
+  .OpenHouseing {
+    height: auto !important;
+
+}
+  .doorKnocking {
+    height: auto !important;
+
+}
+  .marketingPara {
+   
+    padding: 0 !important;
+  
+}
+  .marketingHeading {
+   
+    font-size: 30px !important;
+}
+  .marketingClender {
+    height: auto !important;
+}
+  .betterSec {
+    height: auto !important;
+}
+  .h5better {
+    font-size: 30px !important;
+    padding: 20px 0 !important;
+}
+  .businessmanH1 {
+  
+    font-size: 30px !important;
+   
+}
+  .bussinesManagement {
+    height: auto !important;
+}
+  
+  .headerImg_snag {
+    height: 500px !important;
+}
+  .theContent {
+    height: auto !important;
+}
+  .Feadtured {
+    height: auto !important;
+}
+  .EveryPiece {
+    height: auto !important;
+}
+  .everyHeading {
+  
+    font-size: 32px !important;
+    line-height: 57px !important;
+}
+  .TheContentH1 {
+    
+    font-size: 50px !important;
+    line-height: 30px !important;
+}
+  .theTeam {
+   
+    font-size: 45px !important;
+   
+}
+  .startupH1 {
+  
+    font-size: 20px !important;
+    line-height: 122.5% !important;
+    padding-left: 0 !important;
+    text-align: center !important;
+
+}
+  .marketH1 {
+   
+    font-size: 26px !important;
+   
+}
+  .marketingCamp {
+    height: auto !important;
+}
+  .comingsoonH1 {
+    padding-bottom: 0px!important;
+   padding-top: 10px !important;
+    font-size: 40px !important;
+    line-height: 80px !important;
+
+}
+  .comingsoonpara {
+   
+    font-size: 25px !important;
+    line-height: 43px !important;
+    padding: 0px !important;
+}
+  .comingsoon {
+    
+    height: auto !important;
+    
+}
+  .boxParent {
+    width: 100% !important;
+}
+  .olHeading {
+ 
+    font-size: 30px !important;
+
+}
+  .howeH1 {
+   
+    font-size: 30px !important;
+    padding: 20px 0 !important;
+}
+  .howWe {
+   
+    height: auto !important;
+    padding: 10px 0 !important;
+ 
+}
+  .normalbtnSpeci {
+   
+    margin: 10px 0 !important;
+}
+  .speciH1 {
+   
+    font-size: 30px !important;
+   
+}
+  .specializations {
+    
+    height: auto !important;
+    padding: 10px 0px !important;
+    
+}
+ 
+  .showPage h1 {
+  
+    font-size: 40px !important;
+    line-height: 45px !important;
+    
+}
+  .placeDA h1 {
+  
+    font-size: 40px !important;
+    line-height: 45px !important;
+   
+}
+  .icongraphyHeading {
+    
+    padding-top: 28px !important;
+
+}
+  .icongraphy {
+    width: 100%;
+    height: auto !important;
+    padding: 10px 0px !important;
+}
+  .black_box {
+   
+    padding: 10px 0px !important;
+    height: auto !important;
+  
+}
+  .brand_Mark {
+  
+    margin-top: 0 !important;
+ 
+}
+  .brandMarheading {
+    
+    padding-bottom: 25px !important;
+}
+  .project_breif_Heading {
+  
+    padding-bottom: 0px !important;
+    padding-top: 10px !important;
+    font-size: 30px !important;
+    
+}
+  .project_breif_rightPara {
+    
+    padding-top: 0 !important;
+   
+}
+  .project_breif_snag {
+ 
+    height: auto !important;
+  
+  
+
+}
+  .headerH1 {
+  
+    font-size: 22px !important;
+    line-height: 43px !important;
+ 
+}
+.headerH1 span {
+
+  font-size: 22px !important;
+  line-height: 43px !important;
+
+  
+}
+  .colorfulbox {
+   
+    height: 73vh;
+    
+}
   .contactbtn {
     border: 2px solid #ffffff;
     border-radius: 10px;
@@ -609,6 +1132,7 @@ footer {
   }
   .heroSection {
     height: 500px;
+    padding: 10px 0 !important;
   }
   .heroHeading {
     width: 100% !important;
@@ -744,7 +1268,7 @@ footer {
   }
   .box2 {
     position: absolute;
-    bottom: 35%;
+    bottom: 40%;
     left: 8%;
 
     width: 200px;
@@ -771,11 +1295,11 @@ footer {
   }
   .black {
     width: 100%;
-    height: 100px;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-  }
+    height: 55px !important;
+    position: relative !important;
+    top: -76px !important;
+   
+}
   .explorePoten {
     text-align: end;
     font-weight: 600;
@@ -795,7 +1319,7 @@ footer {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 636px;
+    height: 909px;
     background-color: #00031f;
   }
   .whatwedoHead {
@@ -893,7 +1417,7 @@ footer {
     font-weight: 600;
     font-size: 22px;
     line-height: 77px;
-    padding: 0 0;
+    padding: 0 11px;
     color: #ffffff;
   }
   footer {
@@ -903,7 +1427,203 @@ footer {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px)and (max-width: 768px) {
+  .colorfullYellowH1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    padding-top: 64px !important;
+    line-height: 118.5%;
+    color: #faf36a;
+}
+  .tringlecolorboxPara {
+  
+    font-size: 20px !important;
+    max-height: 278px !important;
+    padding: 28px 10px !important;
+    margin-top: 34px !important;
+    overflow: auto !important;
+}
+  .weAreFluidH1 {
+    font-size: 45px !important;
+    line-height: 89px !important;
+  }
+  .weAreFluidH1 span {
+    font-size: 45px !important;
+
+}
+  .authority h1{
+    font-size: 52px !important;
+    line-height: 75px !important;
+
+  }
+  .authority p {
+    font-size: 52px !important;
+    line-height: 75px !important;
+    font-size: 22px !important;
+    line-height: 36px !important;
+    padding: 0px !important;
+}
+  .authority {
+    width: 100%;
+    height: auto !important;
+    background: #fbfbfb;
+}
+  .BigText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 61px !important;
+    line-height: 156px;
+    color: #000000;
+    position: absolute;
+    top: -51% !important;
+}
+  .BigText_women {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px !important;
+    line-height: 108px;
+    color: #fc2938;
+    transform: rotate(
+30deg);
+    position: absolute;
+    left: 43%;
+}
+  .BigText_skate {
+    width: 434px;
+    font-weight: 600;
+    font-size: 48px !important;
+    line-height: 93px;
+    color: #000000;
+    transform: rotate(
+90deg);
+    position: absolute;
+    top: 40%;
+    right: -98% !important;
+}
+  .MichaelRozen_box {
+    width: 239px !important;
+    height: 357px !important;
+    position: absolute;
+    bottom: 13%;
+    left: 61% !important;
+}
+  .GraemeZirk_box {
+    width: 295px !important;
+    height: 390px !important;
+    position: absolute;
+    bottom: 14%;
+    left: 16%;
+}
+  .LaurenElms_box {
+    width: 295px !important;
+    height: 295px !important;
+    position: absolute;
+    right: 11%;
+    top: 18%;
+}
+  .abstrack_box {
+    width: 310px !important;
+    height: 207px !important;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+}
+  .specibtn {
+    line-height: 21px !important;
+    font-size: 14px !important;
+  
+  }
+  
+
+  .marketingPara {
+ 
+    
+    max-height: 244px;
+    overflow: auto;
+}
+  .highlyTragered {
+    height: auto !important;
+
+}
+  .top3 {
+    height: auto !important;
+
+}
+  .Community {
+    height: auto !important;
+
+}
+  .doorKnocking {
+    height: auto !important;
+
+  }
+  .OpenHouseing {
+    height: auto !important;
+
+}
+  .localSales {
+    height: auto !important;
+
+}
+  .Arealstate {
+    height: auto !important;
+
+}
+  .Seo {
+    height: auto !important;
+}
+  .headerH1 span {
+    font-size: 40px !important;
+    line-height: 48px !important;
+}
+  .headerH1 {
+  
+    font-size: 40px !important;
+    line-height: 48px !important;
+    
+}
+  .header_snag {
+    height: auto !important;
+    padding: 50px 0 !important;
+}
+  .theContent {
+    height: auto !important;
+}
+  .heroSection {
+   padding-top: 100px !important;
+    
+    height: 712px !important;
+   
+}
+  .comingsoonpara {
+   
+    padding: 20px 74px !important;
+}
+  .howWe {
+   
+    height: 1306px !important;
+    
+}
+  .boxParent {
+    width: 51% !important;
+    
+}
+  .multicolorbox {
+    margin-top: 40px;
+  
+    height: 219px !important;
+   
+}
+  .brandtypography h2{
+    font-size: 39px !important;
+  
+  }
+  .colorfulbox {
+    
+    height: 42vh;
+  
+}
   .hero_content {
     width: 100%;
     height: auto;
@@ -978,11 +1698,43 @@ footer {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .colorfullYellowH1 {
+  
+    padding-top: 64px !important;
+  
+}
+  .heroHeading {
+    font-size: 50px !important;
+    line-height: 49px !important;
+}
+  .viewCOntainerHeading {
+   
+    padding: 6px 45px !important;
+}
+  .howWe {
+  
+    height: auto !important;
+    padding: 20px 0 !important;
+}
+  .colorfulbox {
+    
+    height: 40vh !important;
+   
+}
+  .specializations {
+    height: auto !important;
+    padding: 20px 0 !important;
+}
+  .brandtypography h2{
+    font-size: 60px !important;
+  
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+ 
   .formDiv {
     width: 50%;
     margin: 0 auto;
@@ -2433,53 +3185,187 @@ footer {
   height: 900px;
   background: #00031f;
 }
-.exuH1{
+.exuH1 {
   font-style: normal;
-font-weight: 600;
-font-size: 55px;
-line-height: 123px;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 123px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.profilehead{
+.profilehead {
   font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 223%;
-/* or 45px */
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 223%;
+  /* or 45px */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
-.profileheadCoFounder{
+.profileheadCoFounder {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 223%;
   /* identical to box height, or 45px */
-  
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
-.profilepara{
+.profilepara {
   font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height */
-
-text-decoration-line: underline;
-
-color: #FFFFFF;
-}
-.underline{
+  font-weight: 500;
   font-size: 16px;
-line-height: 24px;
-/* identical to box height */
+  line-height: 24px;
+  /* identical to box height */
 
-text-decoration-line: underline;
+  text-decoration-line: underline;
 
-color: #FFFFFF;
+  color: #ffffff;
+}
+.underline {
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
 
+  text-decoration-line: underline;
+
+  color: #ffffff;
 }
 /* team css end  */
+
+/* specializations css start  */
+.specializations {
+  width: 100%;
+  height: 900px;
+  background: #00031f;
+}
+.speciH1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114.5%;
+  /* or 46px */
+
+  color: #fef76b;
+}
+.soeciPara {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.specibtn {
+  width: 100%;
+  text-align: left;
+  height: 60px;
+  border: none;
+  border-radius: 10px 0px 0px 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 10px;
+  color: white;
+  background: #02003e;
+  /* identical to box height */
+}
+.selectedstate {
+  color: #000;
+  background: #fef76b;
+}
+.normalbtnSpeci {
+  width: 169px;
+  height: 53px;
+  background: #fef76b;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  color: #00031f;
+}
+.seeHumanleft {
+  width: 100%;
+  height: 54px;
+  background: #fef76b;
+  border-radius: 10px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  padding: 10px;
+  text-align: left;
+
+  color: #00031f;
+}
+
+.seeHumanRight {
+  text-align: right;
+  padding: 10px;
+  width: 100%;
+  height: 54px;
+  background: #fef76b;
+  border-radius: 10px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #00031f;
+}
+.marketingPara {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+/* specializations css end  */
+/* comingsoon css start  */
+.comingsoon {
+  width: 100%;
+  height: 878px;
+ 
+
+  background: conic-gradient(
+    from 153.84deg at -1.31% -2.37%,
+    #6513bb -3deg,
+    #c723d3 22.21deg,
+    #e9c604 76.22deg,
+    #00d3fa 161.25deg,
+    #000000 213.99deg,
+    #f6e4a8 268.66deg,
+    #6513bb 357deg,
+    #c723d3 382.21deg
+  );
+}
+.comingsoonH1{
+  font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 108px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.comingsoonpara{
+  font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+padding: 20px 120px;
+
+color: #FFFFFF;
+}
+
+/* comingsoon css end  */

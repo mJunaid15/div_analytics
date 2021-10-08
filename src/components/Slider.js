@@ -18,7 +18,7 @@ const Slider = (props) => {
 
                 <h1 className="tringlecolorboxh1"> {props.alphaPara} </h1>
               </div>
-              <div className="col-9 col-md-9 col-lg-9 mt-lg-5">
+              <div className="col-12 col-md-9 col-lg-9 mt-lg-5">
                 <p className="tringlecolorboxPara mt-lg-5"> {props.heading}</p>
                 <p className="tringlecolorboxPara2">
                   {props.para}
@@ -33,7 +33,7 @@ const Slider = (props) => {
         <Carousel.Item>
           <div className="container">
             <div className="row mt-lg-3">
-              <div className="col-3 col-md-3 col-lg-3 ">
+              <div className="col-12 col-md-3 col-lg-3 ">
                 <h1 className="colorfullYellowH1">
                 {props.topheading}
                 </h1>
@@ -42,7 +42,7 @@ const Slider = (props) => {
 
                 <h1 className="tringlecolorboxh1"> {props.alphaPara} </h1>
               </div>
-              <div className="col-9 col-md-9 col-lg-9 mt-lg-5">
+              <div className="col-12 col-md-9 col-lg-9 mt-lg-5">
                 <p className="tringlecolorboxPara mt-lg-5"> {props.heading}</p>
                 <p className="tringlecolorboxPara2">
                   {props.para}
@@ -57,7 +57,7 @@ const Slider = (props) => {
         <Carousel.Item>
           <div className="container">
             <div className="row mt-lg-3">
-              <div className="col-3 col-md-3 col-lg-3 ">
+              <div className="col-12 col-md-3 col-lg-3 ">
               <h1 className="colorfullYellowH1">
                 {props.topheading}
                 </h1>
@@ -65,7 +65,7 @@ const Slider = (props) => {
 
                 <h1 className="tringlecolorboxh1"> {props.alphaPara} </h1>
               </div>
-              <div className="col-9 col-md-9 col-lg-9 mt-lg-5">
+              <div className="col-12 col-md-9 col-lg-9 mt-lg-5">
                 <p className="tringlecolorboxPara mt-lg-5"> {props.heading}</p>
                 <p className="tringlecolorboxPara2">
                   {props.para}

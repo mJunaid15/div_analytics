@@ -136,7 +136,7 @@ const Casestudy = () => {
                     Theme Gradient Compliments
                   </h1>
                   <div className="row g-3">
-                    <div className="col-3">
+                    <div className="col-6 col-md-6 col-lg-3">
                       <div
                         className="themebox"
                         style={{ backgroundColor: "#FAFF03" }}
@@ -144,7 +144,7 @@ const Casestudy = () => {
                         <h2>#FAFF03</h2>
                       </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6 col-md-6 col-lg-3">
                       <div
                         className="themebox"
                         style={{ backgroundColor: "#BD21C9" }}
@@ -152,7 +152,7 @@ const Casestudy = () => {
                         <h2>#BD21C9</h2>
                       </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6 col-md-6 col-lg-3">
                       <div
                         className="themebox"
                         style={{ backgroundColor: "#FF00C7" }}
@@ -160,7 +160,7 @@ const Casestudy = () => {
                         <h2>#FF00C7</h2>
                       </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-6 col-md-6 col-lg-3">
                       <div
                         className="themebox"
                         style={{ backgroundColor: "#07FFFF" }}
@@ -195,7 +195,7 @@ const Casestudy = () => {
 
           <div className="row">
             <div className="col-12 col-md-4 col-lg-4">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
@@ -204,11 +204,11 @@ const Casestudy = () => {
                 }}
               >
                 Poppins
-              </h1>
+              </h2>
             </div>
 
             <div className="col-12 col-md-4 col-lg-4">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
@@ -217,11 +217,11 @@ const Casestudy = () => {
                 }}
               >
                 Semibold
-              </h1>
+              </h2>
             </div>
 
             <div className="col-12 col-md-4 col-lg-4">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
@@ -230,24 +230,24 @@ const Casestudy = () => {
                 }}
               >
                 Title
-              </h1>
+              </h2>
             </div>
           </div>
 
           <div className="row border-bottom border-top ">
             <div className="col-12 col-md-4 col-lg-4 ">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
                   color: "#434343",
-                  fontWeight: "bold",
+                  fontWeight: "bold"
                 }}
-              ></h1>
+              ></h2>
             </div>
 
             <div className="col-12 col-md-4 col-lg-4">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
@@ -256,7 +256,7 @@ const Casestudy = () => {
                 }}
               >
                 Medium
-              </h1>
+              </h2>
             </div>
 
             <div className="col-12 col-md-4 col-lg-4  d-flex align-content-center align-items-center">
@@ -288,7 +288,7 @@ const Casestudy = () => {
             </div>
 
             <div className="col-12 col-md-4 col-lg-4">
-              <h1
+              <h2
                 style={{
                   fontSize: "72px",
                   lineHeight: "108px",
@@ -297,7 +297,7 @@ const Casestudy = () => {
                 }}
               >
                 Regular
-              </h1>
+              </h2>
             </div>
 
             <div className="col-12 col-md-4 col-lg-4  d-flex align-content-center align-items-center">

@@ -16,6 +16,19 @@ import Pricingmodel from './pages/Pricingmodel';
 import Specialized from './pages/Specialized';
 import Team from './pages/Team';
 import Contactpage from './pages/Contactpage';
+import Marketingcontent from './pages/Marketingcontent';
+import Brandingcontent from './pages/Brandingcontent';
+import Marketresearch from './pages/Marketresearch';
+import Publicreaction from './pages/Publicreaction';
+import Audits from './pages/Audits';
+import Humanresourse from './pages/Humanresourse';
+import Comingsoon from './pages/Comingsoon';
+
+
+
+
+
+
 
 
 
@@ -48,6 +61,18 @@ const App = () => {
         <Route path="/specialized" component={Specialized}></Route>
         <Route path="/team" component={Team}></Route>
         <Route path="/contactpage" component={Contactpage}></Route>
+        <Route path="/marketingcontent" component={Marketingcontent}></Route>
+        <Route path="/brandingcontent" component={Brandingcontent}></Route>
+        <Route path="/marketresearch" component={Marketresearch}></Route>
+        <Route path="/publicreaction" component={Publicreaction}></Route>
+        <Route path="/audits" component={Audits}></Route>
+        <Route path="/humanresourse" component={Humanresourse}></Route>
+        <Route path="/comingsoon" component={Comingsoon}></Route>
+
+
+
+
+
 
 
 

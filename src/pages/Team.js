@@ -1,6 +1,5 @@
 import React from "react";
 import Navmenu from "../components/Navmenu";
-import Herosec from "../components/Herosec";
 import Footer from "../components/Footer";
 import Whatclient from "../components/Whatclient";
 import Contactus from "../components/Contactus";
@@ -80,7 +79,7 @@ const Team = () => {
 
                       </div>
                        <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
-                          <img src="./images/arrow.png" alt="img" className="img-fluid" />
+                          <img src="./images/arrow.png" alt="img" className="img-fluid pb-3" />
 
 
                        </div>
@@ -90,7 +89,7 @@ const Team = () => {
               <div className="col-12 col-md-5 col-lg-4">
                   <div className="row">
                       <div className="col-12 col-md-8 col-lg-8 ">
-                          <img src="./images/profile.png" alt="img" className="img-fluid" />
+                          <img src="./images/profile.png" alt="img" className="img-fluid " />
                         <div>
                             <h1 className="profilehead">
                             Andreas Papaioannou
@@ -106,7 +105,7 @@ const Team = () => {
 
                       </div>
                        <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
-                          <img src="./images/arrow.png" alt="img" className="img-fluid" />
+                          <img src="./images/arrow.png" alt="img" className="img-fluid pb-3" />
 
 
                        </div>

@@ -48,7 +48,7 @@ const Katronis = () => {
 
           <div className="container d-flex justify-content-end">
             <div className="container">
-              <img src="./images/katronis_team 1.png" alt="img" className="" />
+              <img src="./images/katronis_team 1.png" alt="img" className="img-fluid" />
             </div>
           </div>
         </div>
