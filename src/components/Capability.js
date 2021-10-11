@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 
-const capability = () => {
+const Capability = () => {
+  useEffect(()=>{
+    Aos.init({
+      duration:2000
+    })
+
+  },[])
   return (
     <>
       <section className="capabiltySec">
@@ -45,7 +53,7 @@ const capability = () => {
 
         <div className="container">
           <div className="work_content">
-            <h1 className="workHeading">
+            <h1 className="workHeading" data-aos="fade-right">
               WORK {">>"} turning <span>iDeas</span> into reality.
             </h1>
           </div>
@@ -53,6 +61,7 @@ const capability = () => {
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 mt-5">
               <img
+              data-aos="fade-in"
                 src="./images/DiveAnalytics.png"
                 alt=""
                 className="img-fluid imgsize"
@@ -60,12 +69,15 @@ const capability = () => {
               />
             </div>
             <div className="col-12 col-md-6 col-lg-6 martop">
-              <img src="./images/Snag Art.png" alt="" className="img-fluid" style={{width:'450px'}} />
+              <img 
+              data-aos="fade-in"
+               src="./images/Snag Art.png" alt="" className="img-fluid" style={{width:'450px'}} />
             </div>
           </div>
           <div className="row">
             <div className="col-12 col-md-6 col-lg-6 mt-5">
               <img
+              data-aos="fade-in"
                 src="./images/Katronis Real Estate.png"
                 alt=""
                 className="img-fluid"
@@ -73,7 +85,10 @@ const capability = () => {
               />
             </div>
             <div className="col-12 col-md-6 col-lg-6 martop">
-              <img src="./images/Intern.png" alt="" className="img-fluid"  style={{width:'450px'}} />
+              <img
+              data-aos="fade-in"
+              
+              src="./images/Intern.png" alt="" className="img-fluid"  style={{width:'450px'}} />
             </div>
           </div>
         </div>
@@ -82,4 +97,4 @@ const capability = () => {
   );
 };
 
-export default capability;
+export default Capability;

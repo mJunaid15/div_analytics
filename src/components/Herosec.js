@@ -1,4 +1,6 @@
 import React from "react";
+import { motion } from "framer-motion";
+
 // import wave from "/images/wave.png";
 
 import { Container } from "react-bootstrap";
@@ -18,53 +20,77 @@ const Herosec = (props) => {
               <span>{props.yellowHeading}</span>
               {props.Heading2}
             </h1>
-           
+
             <p>
               {props.para}
               <br /> <br />
               {props.secondPara}
             </p>
 
-            <button
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn1 }}
             >
               {props.btn1}
-            </button>
+            </motion.button>
             <span className="or" style={{ display: props.display }}>
               {props.or}
             </span>
-            <button
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn2 }}
             >
               {props.btn2}
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn3 }}
             >
               {props.btn3}
-            </button>
+            </motion.button>
             <br className="d-none d-lg-block" />
-            <button
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn4 }}
             >
               {props.btn4}
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn5 }}
             >
               {props.btn5}
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              whileHover={{
+                backgroundColor: "rgba(0, 0, 0, 0.83)",
+                color: "#fff",
+              }}
               className="herobtn"
               style={{ backgroundColor: props.bgbtn6 }}
             >
               {props.btn6}
-            </button>
+            </motion.button>
           </div>
         </Container>
       </section>

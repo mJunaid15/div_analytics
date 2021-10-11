@@ -1,5 +1,5 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { motion } from "framer-motion";
 
 const Pricing_models = () => {
   return (
@@ -10,33 +10,33 @@ const Pricing_models = () => {
         </div>
 
         <div className="parent">
-          <div className="box1">
+          <motion.div whileHover={{ y: -100 }} className="box1">
             <div className="inner">
               <h1 className="homeinnerh1">
                 Hourly <br /> Rate
               </h1>
             </div>
-          </div>
+          </motion.div>
 
-          <div className="box2">
+          <motion.div whileHover={{ y: -100 }} className="box2">
             <div className="inner">
               <h1 className="homeinnerh1">
                 Fixed <br /> Project <br /> Rate
               </h1>
             </div>
-          </div>
-          <div className="box3">
+          </motion.div>
+          <motion.div whileHover={{ y: -100 }} className="box3">
             <div className="inner">
               <h1 className="homeinnerh1">
-                Upside <br /> Potential 
+                Upside <br /> Potential
               </h1>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="black">
-            <div className="container">
-                <h1 className="explorePoten">Explore potential</h1>
-            </div>
+          <div className="container">
+            <h1 className="explorePoten">Explore potential</h1>
+          </div>
         </div>
       </section>
     </>

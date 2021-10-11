@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navmenu from "../components/Navmenu";
 import Footer from "../components/Footer";
 import Whatclient from "../components/Whatclient";
 import Contactus from "../components/Contactus";
 import Viewteam from "../components/Viewteam";
+import Aos from "aos";
+
+
+
+import "aos/dist/aos.css";
 
 const Team = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 2000,
+    });
+  }, []);
   return (
     <>
       <Navmenu />
@@ -13,23 +23,54 @@ const Team = () => {
       <section className="heroSectionTeam d-flex align-items-center">
         <div className="container">
           <div className="hero_content paddtop">
-            <h1 className="heroHeading  ">
-              Dive Analytics is dedicated to
-              <br />
-              <span>greatness.</span>
+            <h1
+              className="heroHeading  "
+              data-aos="fade-down"
+              data-aos-duration="3000"
+            >
+              Dive Analytics is dedicated to &nbsp;
+              <span className="animate__animated animate__fadeIn">
+                greatness.
+              </span>
             </h1>
           </div>
         </div>
       </section>
 
       <section className="weAreFluid  d-flex align-items-center">
-        <div className="container">
-          <h1 className="weAreFluidH1">
-            We are fueled by truly exceptional <span>ideas</span> and{" "}
-            <span> people. </span> We believe we can truly help{" "}
-            <span>develop</span> the next <span>great idea</span> that can go on
-            to be the next
-            <span>great business</span> of it’s <span>industry. </span>
+        <div className="container" >
+          <h1   className="weAreFluidH1" data-aos="fade-zoom-in"
+               >
+
+            We are fueled by truly exceptional{" "}
+            <span data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="50">ideas</span> and{" "}
+            <span data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="100" > people. </span>{" "}
+            We believe we can truly help{" "}
+            <span data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="150">develop</span>{" "}
+            the next &nbsp;
+            <span  data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="200">
+              great idea
+            </span>{" "}
+            that can go on to be the next
+            <span data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="250">
+              great business
+            </span>{" "}
+            of it’s{" "}
+            <span  data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300">
+              industry.{" "}
+            </span>
           </h1>
         </div>
       </section>
@@ -45,13 +86,9 @@ const Team = () => {
             vision and started Dive Analytics as a way to live their purpose and
             realize their goals.
             <br />
-            
             THERE...THE END.
             <br />
-            <small>
-            If you want to know the big story, ask us in person.
-            </small>
-           
+            <small>If you want to know the big story, ask us in person.</small>
           </p>
         </div>
       </section>
@@ -60,82 +97,72 @@ const Team = () => {
         <div className="container">
           <h1 className="exuH1">Executive Team</h1>
           <div className="row">
-              <div className="col-12 col-md-5 col-lg-4">
-                  <div className="row">
-                      <div className="col-12 col-md-8 col-lg-8 ">
-                          <img src="./images/profile.png" alt="img" className="img-fluid" />
-                        <div>
-                            <h1 className="profilehead">
-                            Andreas Papaioannou
-                            </h1>
-                            <h1 className="profileheadCoFounder">
-                            Co-Founder
-                            </h1>
-                            <p className="profilepara">
-                            Business Architect and Marketing Strategiest
-                            </p>
-                            <p className="underline">Understand my why</p>
-                        </div>
-
-                      </div>
-                       <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
-                          <img src="./images/arrow.png" alt="img" className="img-fluid pb-3" />
-
-
-                       </div>
+            <div className="col-12 col-md-5 col-lg-4">
+              <div className="row">
+                <div className="col-12 col-md-8 col-lg-8 ">
+                  <img
+                    src="./images/profile.png"
+                    alt="img"
+                    className="img-fluid"
+                  />
+                  <div>
+                    <h1 className="profilehead">Andreas Papaioannou</h1>
+                    <h1 className="profileheadCoFounder">Co-Founder</h1>
+                    <p className="profilepara">
+                      Business Architect and Marketing Strategiest
+                    </p>
+                    <p className="underline">Understand my why</p>
                   </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
+                  <img
+                    src="./images/arrow.png"
+                    alt="img"
+                    className="img-fluid pb-3"
+                  />
+                </div>
               </div>
-          
-              <div className="col-12 col-md-5 col-lg-4">
-                  <div className="row">
-                      <div className="col-12 col-md-8 col-lg-8 ">
-                          <img src="./images/profile.png" alt="img" className="img-fluid " />
-                        <div>
-                            <h1 className="profilehead">
-                            Andreas Papaioannou
-                            </h1>
-                            <h1 className="profileheadCoFounder">
-                            Co-Founder
-                            </h1>
-                            <p className="profilepara">
-                            Business Architect and Marketing Strategiest
-                            </p>
-                            <p className="underline">Understand my why</p>
-                        </div>
+            </div>
 
-                      </div>
-                       <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
-                          <img src="./images/arrow.png" alt="img" className="img-fluid pb-3" />
-
-
-                       </div>
+            <div className="col-12 col-md-5 col-lg-4">
+              <div className="row">
+                <div className="col-12 col-md-8 col-lg-8 ">
+                  <img
+                    src="./images/profile.png"
+                    alt="img"
+                    className="img-fluid "
+                  />
+                  <div>
+                    <h1 className="profilehead">Andreas Papaioannou</h1>
+                    <h1 className="profileheadCoFounder">Co-Founder</h1>
+                    <p className="profilepara">
+                      Business Architect and Marketing Strategiest
+                    </p>
+                    <p className="underline">Understand my why</p>
                   </div>
+                </div>
+                <div className="col-12 col-md-4 col-lg-4  d-flex align-items-center">
+                  <img
+                    src="./images/arrow.png"
+                    alt="img"
+                    className="img-fluid pb-3"
+                  />
+                </div>
               </div>
-           
+            </div>
 
-              <div className="col-12 col-md-2 col-lg-4">
-                  
-                   
-                          <img src="./images/profile.png" alt="img" className="img-fluid" />
-                        <div>
-                            <h1 className="profilehead">
-                            Andreas Papaioannou
-                            </h1>
-                            <h1 className="profileheadCoFounder">
-                            Co-Founder
-                            </h1>
-                            <p className="profilepara">
-                            Business Architect and Marketing Strategiest
-                            </p>
-                            <p className="underline">Understand my why</p>
-                        </div>
-
-                      
-                 
+            <div className="col-12 col-md-2 col-lg-4">
+              <img src="./images/profile.png" alt="img" className="img-fluid" />
+              <div>
+                <h1 className="profilehead">Andreas Papaioannou</h1>
+                <h1 className="profileheadCoFounder">Co-Founder</h1>
+                <p className="profilepara">
+                  Business Architect and Marketing Strategiest
+                </p>
+                <p className="underline">Understand my why</p>
               </div>
+            </div>
           </div>
-
-          
         </div>
       </section>
 

@@ -2727,7 +2727,7 @@ footer {
   justify-content: start !important;
   color: #faf36a !important;
   align-items: center;
-  width: 147%;
+  /* width: 147%; */
   padding: 1rem 1.25rem;
   font-size: 20px !important;
 
